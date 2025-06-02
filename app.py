@@ -6,4 +6,4 @@ st.set_page_config(page_title="Distributed AI Architectures", layout="wide")
 with open("DAI.html", "r", encoding="utf-8") as f:
     html = f.read()
 
-components.html(html, height=1800)
+components.html(html, height=2000, scrolling= True)
